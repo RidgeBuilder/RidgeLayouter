@@ -18,10 +18,13 @@ conda create -n my_env python==3.10
 conda activate my_env
 pip install -r requirements.txt
 ```
-2. Run the code
+2. Get an academic license for Gurobi Solver.
+https://www.gurobi.com/
+
+3. Run the code
 ```
 cd src
 python main.py
 ```
-3. If the code execute correctly, then an image will be generated in the /src/output folder. The image will be the same as the one in /result_vis .
+4. If the code execute correctly, then an image will be generated in the /src/output folder. The image will be the same as the one in /result_vis .
 
